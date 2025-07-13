@@ -8,7 +8,7 @@
     "build": "vite build",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d dist -u \"saramazal mazalwebdesign@gmail.com\" -r https://github.com/saramazal/my-business-card.io.git"
   },
   "dependencies": {
     "@react-three/drei": "^10.5.0",
