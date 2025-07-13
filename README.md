@@ -1,7 +1,7 @@
 
 ## 📇 **My Digital Business Card**
 
-![Screenshot](https://saramazal.github.io/my-business-card.io/screenshot.png) <!-- Optional if you want to add a screenshot later -->
+![Screenshot](https://github.com/saramazal/my-business-card.io/blob/main/screenshot.png) <!-- Optional if you want to add a screenshot later -->
 
 ---
 
