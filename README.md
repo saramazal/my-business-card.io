@@ -69,19 +69,6 @@ npm run deploy
 
 ---
 
-### 📷 Optional Screenshot
-
-If you want to include a preview image:
-1️⃣ Take a screenshot of your site
-2️⃣ Save it as `/public/screenshot.png`
-3️⃣ Uncomment or add this line in README:
-
-```markdown
-![Screenshot](https://saramazal.github.io/my-business-card.io/screenshot.png)
-```
-
----
-
 ### 🤝 Connect With Me
 
 | Platform    | Link                                                             |
