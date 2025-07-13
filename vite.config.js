@@ -4,10 +4,6 @@ import path from "path";
 
 // https://vite.dev/config/
 export default defineConfig({
+  base: '/my-business-card.io/',
   plugins: [react()],
-  resolve: {
-    alias: {
-      "@": path.resolve(__dirname, "src"),
-    },
-  },
 });
