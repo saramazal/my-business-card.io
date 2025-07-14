@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from "react";
+ import React, { useEffect, useRef } from "react";
 import "./styles/style.css";
 
 export default function BusinessCard() {
@@ -49,12 +49,10 @@ export default function BusinessCard() {
       <canvas ref={canvasRef}></canvas>
       <div className="card">
         <h1>Sara Mazal</h1>
-      
+        <p className="job-title web">Web Developer</p>
+        <p className="job-title artist">&</p>
         <p className="job-title hacker">Ethical Hacker</p>
-          <p className="job-title web">Web Developer</p>
-        <p className="job-title artist">Ai Artist</p>
-
-        <div className="stack">
+          <div className="stack">
           <p className="stack-label">PREFERRED_STACK</p>
           <div className="stack-tags">
           {[
@@ -64,14 +62,15 @@ export default function BusinessCard() {
   "Linux",
   "OWASP",
   "React",
+  "Next.js",
   "CSS",
-  "JavaScript",
   "AiTools"
 ].map((tech) => (
   <span key={tech}>{tech}</span>
 ))}
           </div>
         </div>
+       
 
         <blockquote>
           "The future is not some place we are going, but one we are creating."
@@ -79,23 +78,24 @@ export default function BusinessCard() {
         </blockquote>
 
         <div className="socials">
-          <button onClick={() => window.open("https://www.linkedin.com/in/sara-mazal")}>
+           <button className="linked" onClick={() => window.open("https://www.linkedin.com/in/sara-mazal")}>
             <i className="fab fa-linkedin"></i> LinkedIn
           </button>
-          <button onClick={() => window.open("https://github.com/saramazal")}>
+        
+          <button className="github" onClick={() => window.open("https://github.com/saramazal")}>
             <i className="fab fa-github"></i> GitHub
           </button>
-          <button onClick={() => window.open("https://tryhackme.com/p/maz4l")}>
+          <button className="shield" onClick={() => window.open("https://tryhackme.com/p/maz4l")}>
             <i className="fas fa-shield-alt"></i> TryHackMe
           </button>
-          <button onClick={() => window.open("https://codepen.io/Saramazal")}>
+          <button className="codepen" onClick={() => window.open("https://codepen.io/Saramazal")}>
             <i className="fab fa-codepen"></i> CodePen
           </button>
-          <button onClick={() => window.open("https://x.com/mazalspace")}>
-            <i className="fab fa-x-twitter"></i> X (Twitter)
+          <button className="twitter" onClick={() => window.open("https://x.com/mazalspace")}>
+            <i className="fab fa-x-twitter"></i> X(Twitter)
           </button>
-          <button onClick={() => window.open("https://maz4lhacks.vercel.app/")}>
-            <i className="fas fa-blog"></i> MazalHacks Blog
+          <button className="blog" onClick={() => window.open("https://maz4lhacks.vercel.app/")}>
+            <i className="fas fa-blog"></i> MazalHacks
           </button>
         </div>
 
