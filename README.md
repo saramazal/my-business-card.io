@@ -1,7 +1,7 @@
-
+##### _Project_in_progress_
 ## 📇 **My Digital Business Card**
 
-![Screenshot](https://saramazal.github.io/my-business-card.io/screenshot.png) <!-- Optional if you want to add a screenshot later -->
+![Screenshot](https://github.com/saramazal/my-business-card.io/blob/main/screenshot.png) <!-- Optional if you want to add a screenshot later -->
 
 ---
 
@@ -66,19 +66,6 @@ npm run deploy
 ```
 
 3️⃣ Set **GitHub Pages** source to `gh-pages` branch under repo settings.
-
----
-
-### 📷 Optional Screenshot
-
-If you want to include a preview image:
-1️⃣ Take a screenshot of your site
-2️⃣ Save it as `/public/screenshot.png`
-3️⃣ Uncomment or add this line in README:
-
-```markdown
-![Screenshot](https://saramazal.github.io/my-business-card.io/screenshot.png)
-```
 
 ---
 
