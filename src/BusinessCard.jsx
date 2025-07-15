@@ -49,27 +49,8 @@ export default function BusinessCard() {
       <canvas ref={canvasRef}></canvas>
       <div className="card">
         <h1>Sara Mazal</h1>
-        <p className="job-title web">Web Developer</p>
-        <p className="job-title artist">&</p>
-        <p className="job-title hacker">Ethical Hacker</p>
-          <div className="stack">
-          <p className="stack-label">PREFERRED_STACK</p>
-          <div className="stack-tags">
-          {[
-  "Burp Suite",
-  "Nmap",
-  "Metasploit",
-  "Linux",
-  "OWASP",
-  "React",
-  "Next.js",
-  "CSS",
-  "AiTools"
-].map((tech) => (
-  <span key={tech}>{tech}</span>
-))}
-          </div>
-        </div>
+        <p className="job-title web">Web Developer & Ethical Hacker</p>
+         
        
 
         <blockquote>
