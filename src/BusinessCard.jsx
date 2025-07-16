@@ -49,7 +49,7 @@ export default function BusinessCard() {
       <canvas ref={canvasRef}></canvas>
       <div className="card">
         <h1>Sara Mazal</h1>
-        <p className="job-title web">Web Developer & Ethical Hacker</p>
+        <p className="job-title web">WebDeveloper & EthicalHacker</p>
          
        
 

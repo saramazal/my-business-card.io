@@ -92,7 +92,7 @@ h1:hover {
 
 
 .job-title {
-  font-size: 1.2rem;
+  font-size: 1rem;
   text-align: center;
 }
 
@@ -140,7 +140,6 @@ h1:hover {
 }
 
 blockquote {
-  padding-left: 1rem;
   font-style: italic;
   color: #9aa5ce;
   margin: 2rem 0;
