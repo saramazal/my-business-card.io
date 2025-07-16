@@ -10,11 +10,11 @@
 html {
   height: 100%;
   background: #0d1022;
-  font-family: "Space Mono", monospace;
   color: #c0caf5;
 }
 
 body {
+  font-family: "Space Mono", monospace;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -161,17 +161,17 @@ blockquote span {
 }
 
 button {
+  font-family: "Space Mono", monospace;
   background-color: rgba(36, 40, 59, 0.5);
   border: 1px solid #414868;
   color: #c0caf5;
   padding: 0.75rem;
   border-radius: 6px;
-  font-family: monospace;
-  font-size: 0.9rem;
+  font-size: 0.7rem;
   cursor: pointer;
   display: flex;
   align-items: center;
-  gap: 0.5rem;
+  gap: 0.3rem;
   transition: 0.3s;
 }
 

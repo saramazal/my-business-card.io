@@ -15,7 +15,7 @@ export default function BusinessCard() {
     resizeCanvas();
     window.addEventListener("resize", resizeCanvas);
 
-    const matrix = "ABCDEFGHIJKLMNOPQRSTUVWXYZ123456789@#$%^&*()*&^%+-/~{[|`]}";
+    const matrix = "01アカサタナハマヤラワmazal789@#$%^&*(";
     const matrixArray = matrix.split("");
     const fontSize = 14;
     let columns = canvas.width / fontSize;
