@@ -165,6 +165,7 @@ button {
   font-size: 0.7rem;
   cursor: pointer;
   display: flex;
+  justify-content: center;
   align-items: center;
   gap: 0.3rem;
   transition: 0.3s;
