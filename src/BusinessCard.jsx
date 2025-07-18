@@ -48,6 +48,7 @@ export default function BusinessCard() {
     <>
       <canvas ref={canvasRef}></canvas>
       <div className="card">
+        <video src="avatar.mp4" autoPlay loop muted playsInline className="avatar-video" />
         <h1>Sara Mazal</h1>
         <p className="job-title web">WebDeveloper & EthicalHacker</p>
          
@@ -59,6 +60,7 @@ export default function BusinessCard() {
         </blockquote>
 
         <div className="socials">
+        
            <button className="linked" onClick={() => window.open("https://www.linkedin.com/in/sara-mazal")}>
             <i class="fa-brands fa-linkedin-in"></i> LinkedIn
           </button>
@@ -66,6 +68,7 @@ export default function BusinessCard() {
           <button className="github" onClick={() => window.open("https://github.com/saramazal")}>
             <i class="fa-brands fa-github"></i> GitHub
           </button>
+          
           <button className="shield" onClick={() => window.open("https://tryhackme.com/p/maz4l")}>
             <i className="fas fa-shield-alt"></i> TryHackMe
           </button>
