@@ -88,6 +88,6 @@ This project is for personal branding and portfolio demonstration purposes.
 
 ### 👩‍💻 Author
 
-[Sara Mazal](https://github.com/saramazal)
+[Github: @saramazal](https://github.com/saramazal)
 
 [LinkedIn:@sara-mazal](https://linkedin.com/in/sara-mazal)

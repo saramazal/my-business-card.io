@@ -15,7 +15,7 @@ export default function BusinessCard() {
     resizeCanvas();
     window.addEventListener("resize", resizeCanvas);
 
-    const matrix = "01アカサタナハマヤラワmazal789@#$%^&*(";
+    const matrix = "0アカサタナハマヤラワ1mazl78@#$%^&*(";
     const matrixArray = matrix.split("");
     const fontSize = 14;
     let columns = canvas.width / fontSize;
@@ -60,11 +60,11 @@ export default function BusinessCard() {
 
         <div className="socials">
            <button className="linked" onClick={() => window.open("https://www.linkedin.com/in/sara-mazal")}>
-            <i className="fab fa-linkedin"></i> LinkedIn
+            <i class="fa-brands fa-linkedin-in"></i> LinkedIn
           </button>
         
           <button className="github" onClick={() => window.open("https://github.com/saramazal")}>
-            <i className="fab fa-github"></i> GitHub
+            <i class="fa-brands fa-github"></i> GitHub
           </button>
           <button className="shield" onClick={() => window.open("https://tryhackme.com/p/maz4l")}>
             <i className="fas fa-shield-alt"></i> TryHackMe
@@ -72,11 +72,11 @@ export default function BusinessCard() {
           <button className="codepen" onClick={() => window.open("https://codepen.io/Saramazal")}>
             <i className="fab fa-codepen"></i> CodePen
           </button>
-          <button className="twitter" onClick={() => window.open("https://x.com/mazalspace")}>
-            <i className="fab fa-x-twitter"></i> X(Twitter)
+          <button className="twitter" onClick={() => window.open("https://saramazal.vercel.app/")}>
+            <i class="fa-solid fa-globe"></i> WebPortal
           </button>
           <button className="blog" onClick={() => window.open("https://maz4lhacks.vercel.app/")}>
-            <i className="fas fa-blog"></i> MazalHacks
+            <i class="fa-solid fa-meteor"></i> MazalHacks
           </button>
         </div>
 
